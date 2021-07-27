@@ -5,7 +5,7 @@ while True: # while문으로 무한 반복
     selected = int(input("원하시는 기능을 선택하세요: "))
     print("================") # 안내문 출력하기
 
-    if selected==1:
+    if selected==1: # 만약, selected가 1이라면
         a = input('이름을 입력하세요:')
         b = input('나이를 입력하세요:')
         c = input('학번을 입력하세요:')
