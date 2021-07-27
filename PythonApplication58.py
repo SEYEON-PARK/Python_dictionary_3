@@ -1,9 +1,9 @@
-studentDB = {}
+studentDB = {} # studentDB라는 빈 딕셔너리 생성
 
-while True:
+while True: # while문으로 무한 반복
     print("================\n1)추가 2)삭제 3)수정\n4)조회 5)종료\n================")
     selected = int(input("원하시는 기능을 선택하세요: "))
-    print("================")
+    print("================") # 안내문 출력하기
 
     if selected==1:
         a = input('이름을 입력하세요:')
